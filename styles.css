@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+
+#nav-bar {
+  display: flex;
+  background: #333;
+  color: #f4f4f4;
+  padding: 1em 0;
+}
+
+#nav-bar h1 {
+  flex: 2;
+  margin-left: 1em;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex: 3;
+  align-items: center;
+}
+
+#nav-bar ul li a:hover {
+  background: #f4f4f4;
+  color: #333;
+  border-radius: .3em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+  padding: 1em;
+}
