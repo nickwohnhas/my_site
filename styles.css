@@ -71,7 +71,6 @@ a {
   background: #332E43;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 1em;
 }
 
@@ -82,7 +81,13 @@ a {
 
 #contact-info .section-content h2 {
   text-align: center;
-  margin-bottom: .25em;
+  margin: 1em 0;
+}
+
+#contact-info .section-content #contact-links {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 
